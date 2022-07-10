@@ -1,0 +1,15 @@
+version: "2.4"
+services:
+  web:
+    build: ./OnlineShop
+    command: python manage.py runserver 0.0.0.0:8000
+    ports:
+      - "8000:8000"
+
+  frontend:
+    build: ./online-shop
+    command: npm run start
+    depends_on:
+      - web
+    ports:
+      - "3000:3000"
