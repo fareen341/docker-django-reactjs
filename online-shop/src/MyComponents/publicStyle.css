@@ -1,0 +1,103 @@
+/*MY STYLE*/
+.dropdown-item.active, .dropdown-item:active {
+    color: white;
+    text-decoration: none;
+    background-color: black;
+  }
+  .dropdown-item:hover{
+    color:rgb(209, 209, 209);
+  }
+  .navbar .nav-item:hover .nav-link{ 
+    color: rgb(209, 209, 209);
+    border-bottom:1px solid black;;
+    }
+  .myclass{
+    color:black;
+  }
+  .myclass:hover{
+    color:rgb(209, 209, 209);
+  }
+  input{
+    outline: none;
+    box-shadow:none !important;
+    border:1px solid #ccc !important;
+  }
+  .btn:focus {
+    outline: none;
+    box-shadow: none;
+  }
+  .btnstyle{
+  background-color:white; 
+  color:black;
+  }
+  .btnstyle:hover{
+    background-color: transparent;
+    border:1px solid white;
+    color:white;
+  }
+  
+  
+  
+  /*INDEX PAGE STYLE START*/
+  .box{
+    box-shadow: 5px 5px 5px #6e6c6c;
+    border:1px solid black;
+    margin-top:30px;
+    padding-bottom: 20px;
+  }
+  .boxcontent{
+    color:black ;
+    padding-bottom:20px; 
+    font-size:15px;
+  
+  }
+  
+  .boxbtn{
+    border:1px solid green; 
+    border-radius:5px; 
+    color:black; 
+    text-decoration:none; 
+    padding:5px;
+  }
+  
+  .rs{
+    padding-left:50px; 
+    font-size:18px; 
+  }
+  /*INDEX PAGE STYLE END*/
+  
+  
+  /*SHOP PAGE STYLE START*/
+  .myimg:hover{
+    transform:scale(1.1);    
+  }
+  /*SHOP PAGE STYLE END*/
+  
+
+
+  /*ImageView style */
+  .container2{
+    margin: 0 auto;
+    width: 90%;
+}
+.main_view{
+    width: 100%;
+    height: 25rem;
+}
+.main_view img{
+    width: 80%;
+    height: 300px;
+    padding-left:40px;
+}
+.side_view{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.side_view img{
+    width: 50px;
+    height: 50px;
+    
+    cursor: pointer;
+    margin:0.5rem;
+}

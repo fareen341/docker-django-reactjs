@@ -1,0 +1,66 @@
+
+
+
+App
+|
+ HomeComponent(folder)
+ ------->Home(Home page)
+        |
+        ------->Header.js
+        ------->Body.js
+        ------->Footer.js
+
+
+ContactComponent(folder)
+|
+-------->Contact(Contact page)
+
+
+AboutComponent(folder)
+|
+-------->About(About page)
+
+
+LoginComponent(folder)
+|
+-------->Login(Login Page)
+
+
+RegisterComponent(folder)
+|
+--------->Register(register page)
+
+
+ProductsComponent(folder)
+|
+-------->Product(product page)
+
+
+CollectionsComponent(folder)
+|
+-------->Collection(collection page)
+
+
+Extra(folder)
+|
+--------->Help(help page)
+--------->404 page
+
+
+
+
+
+{!user && (
+            <>
+              <Route path="/account" element={<UserAccount authenticate={{}
+                // if(localStorage.getItem('userdetails')){
+                //   let x=localStorage.getItem('userdetails')
+                //   let p=JSON.parse(x)
+                //   console.log("user state",p)
+                //   setUser(p)
+                // }
+              } />} />
+              {/* <Route path="/account" element={<UserAccount />} /> */}
+            </>
+          )
+          }
